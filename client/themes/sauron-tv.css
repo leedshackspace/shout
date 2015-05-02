@@ -1,0 +1,54 @@
+/**
+ * This is just an empty theme.
+ */
+
+body {
+    background-color: black;
+}
+
+#main {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.header {
+    display: none;
+}
+
+.chat {
+    background-color: #333;
+}
+
+.text {
+    color: white;
+}
+
+#chat .from {
+    border-right-color: #666;
+}
+
+.msg.join, .msg.nick {
+    opacity: 0.5;
+}
+
+.type {
+    color: #999 !important;
+}
+
+#chat .chat, #chat .sidebar {
+    top: 0;
+}
+
+#windows {
+    bottom: 0;
+}
+
+#windows .window:before, #windows .chan:before {
+    display: none;
+}
+
+#form {
+    display: none;
+}
