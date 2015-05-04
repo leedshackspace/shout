@@ -29,6 +29,11 @@ body {
     border-right-color: #666;
     width: 210px;
     min-width: 210px;
+    font-size: 18px;
+}
+
+#chat .user {
+    vertical-align: text-top;
 }
 
 #chat .messages {
