@@ -27,6 +27,12 @@ body {
 
 #chat .from {
     border-right-color: #666;
+    width: 210px;
+    min-width: 210px;
+}
+
+#chat .messages {
+    font-size: 20px;
 }
 
 .msg.join, .msg.nick {
