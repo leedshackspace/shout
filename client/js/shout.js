@@ -887,6 +887,7 @@ $(function() {
 		var width = $("#nick")
 			.html(nick + ":")
 			.width();
+		window.nick = nick; // for plugin usage purposes
 		if (width) {
 			width += 31;
 			input.css("padding-left", width);
